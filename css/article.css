@@ -1,0 +1,267 @@
+.header{
+    width: 100%;
+    height: 600px;
+    background: url('../images/article/fon.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.header__text2{
+    position: absolute;
+    width: 100%;
+    top: 287px;
+  }
+.header__block2{
+    margin: 13px 0px;
+    width: 510px;
+  }
+.header__sub{
+    margin: 13px 0px;
+    width:450px ;
+}  
+.header__p{
+    color: #FFF;
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px; /* 166.667% */
+}
+.article{
+    padding: 100px 0;
+    background: #F8F9FA;
+}  
+.article__data{
+    color: #495057;
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px; /* 208.333% */
+}
+.article__hr{
+    width: 35px;
+    height: 1px;
+    background: #C4C4C4;
+    margin: 0 7px;
+}
+.article__p{
+    color: #495057;
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 25px; */
+    line-height: 178.571%;
+}
+.article__like{
+    color: #495057;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+}
+.top{
+    margin-top: -25px;
+}
+.mtb{
+    margin: 50px 0;
+}
+.h300{
+    border-radius: 5px;
+    height: 300px;
+}
+blockquote{
+    color: #D4A373;
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 700;
+}
+blockquote ~ .article__p{
+    margin-bottom: 50px;
+}
+.article__categ{
+    color: #6C757D;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    padding: 5px 10px;
+    margin-right: 3px;
+}
+button[name="like"]{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    }
+button[name="like"]:hover{
+    cursor: pointer;
+}    
+.article__hr2{
+    height: 0.5px;
+    color: #C4C4C4;
+    margin: 50px 0;
+}
+
+
+.posts{
+    padding: 116px 0 100px;
+    /* background: rgba(229, 229, 229, 0.3); */
+    background-color: #F2F3F4;
+}
+.posts__card__h{
+    color: #495057;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+    margin-bottom: 30px;
+}
+.round{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.posts__card__text{
+    color: #6C757D;
+    font-family: Lora;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.comment{
+    width: 90%;
+    margin: 50px auto 0;
+  }
+  .comment h3{
+    text-align: center;
+    color: #495057;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .comment textarea{
+    width: 100%;
+    border-radius: 5px;
+    outline-color: rgb(121, 121, 235);
+  }
+  .comment textarea::placeholder{
+    color: #f72916;
+    font-family: Lora;
+    font-size: 22px;
+    padding: 5px 10px;
+  }
+  .comment textarea:focus::placeholder{
+    color: #f7291600;
+    padding: 5px 10px;
+  }
+  
+/* message */
+.form__polit {
+    color: #f72916;
+    font-size: 18px;
+    font-style: italic;
+    margin: 5px 0 10px;
+}
+button[name="like"]{
+    margin-left: 10px;
+}
+
+@media screen and (max-width:1190px){
+    .top{
+        margin-top: 7px;
+    }
+}
+@media screen and (max-width:850px){
+        .header__block2{
+            width: 100%;
+        }
+        .header__title{
+            font-size: 32px;
+        }
+    }
+@media screen and (max-width:830px){
+    .article{
+        padding: 70px 0;
+    }
+    blockquote{
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .posts{
+        padding: 80px 0 70px;
+    }
+    .gap__soc{
+        gap:10px;
+    }
+    .footer__top ul li{
+    padding-bottom: 10px;
+    }
+}
+@media screen and (max-width:758px){
+    .container2{
+        width: 70%;
+    }
+}
+@media screen and (max-width:650px){
+    .header__title{
+        font-size: 30px;
+    }
+    .mtb .col-2{
+        width: 100%;
+        margin-bottom: 30px;;
+    }
+}
+
+@media screen and (max-width:550px){
+     .header__sub{
+        width: 86%;
+        }
+    .article{
+        padding: 40px 0;
+    }
+    .mtb{
+        margin: 30px 0 0px;
+    }
+    blockquote{
+        font-size: 20px;
+    }
+    blockquote ~ .article__p{
+        margin-bottom: 30px;
+    }
+    .article__categ{
+        padding: 5px 7px;
+    }
+    .article__hr2{
+        margin: 30px 0;
+    }
+    .article__p{
+        font-size: 13px;
+      }
+    .posts{
+        padding: 50px 0 50px;
+    }
+    .col-23{
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .footer__top ul li{
+    padding-bottom: 7px;
+    }
+    .footer_bottom{
+        padding: 21px 0;
+    }
+}
+@media screen and (max-width:500px){
+    .header__text2{
+        top: 237px;
+      }
+}
+@media screen and (max-width:428px){
+    .header__title{
+        font-size: 28px;
+      }
+      .h300{
+        height: 200px;
+    }
+    .comment textarea::placeholder{
+        font-size: 20px;
+    }
+}
